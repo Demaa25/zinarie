@@ -1,0 +1,152 @@
+/* src/pages/Register/RegisterPage.module.css */
+
+/* HERO */
+
+.hero {
+  min-height: 440px;
+  background-image: url("/assets/shop-hero.png");
+  background-size: cover;
+  background-position: 50% 0%;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin: 0 0 8px;
+  color: rgba(233, 212, 188, 0.98);
+  font-family: Georgia, serif;
+}
+
+.hero span {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  color: var(--gold);
+}
+
+.hero p {
+  color: rgba(255,255,255,0.9);
+  margin-top: 8px;
+}
+
+/* BREADCRUMB */
+
+.breadcrumb {
+  margin: 24px 0;
+  color: #7a6f66;
+  font-size: 14px;
+}
+
+.breadcrumb span {
+  margin: 0 8px;
+}
+
+/* CARD */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 80px;
+}
+
+.card {
+  width: 560px;
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 32px;
+  font-family: Georgia, serif;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 6px;
+  color: #7a6f66;
+  margin-bottom: 20px;
+}
+
+.card label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.card input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #e4dcd4;
+  font-size: 14px;
+}
+
+.registerBtn {
+  width: 100%;
+  margin-top: 26px;
+  padding: 14px;
+  background: linear-gradient(180deg,#f46a1f,#d34f10);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.registerBtn:hover {
+  opacity: .95;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 18px;
+  color: #6d625a;
+}
+
+.footer a {
+  margin-left: 8px;
+  color: #d85b16;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+}
+
+.field label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.field input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #e4dcd4;
+  font-size: 14px;
+}
+
+.field input:focus {
+  outline: none;
+  border-color: #e66a2c;
+  box-shadow: 0 0 0 2px rgba(230,106,44,0.1);
+}
