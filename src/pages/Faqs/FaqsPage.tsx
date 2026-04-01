@@ -30,7 +30,7 @@ const FAQS: Faq[] = [
 
 const CATEGORIES = ["Orders & Shipping", "Returns & Refunds", "Products & Stock", "Payments & Account"] as const;
 
-const CAT_META: Record<(typeof CATEGORIES)[number], { icon: JSX.Element; tone: "orange" | "green" }> = {
+const CAT_META: Record<(typeof CATEGORIES)[number], { icon: React.ReactNode; tone: "orange" | "green" }> = {
   "Orders & Shipping": { icon: <FiTruck />, tone: "orange" },
   "Returns & Refunds": { icon: <FiRotateCcw />, tone: "green" },
   "Products & Stock": { icon: <FiBox />, tone: "orange" },
