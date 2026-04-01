@@ -39,7 +39,7 @@ const PAGE_SIZE = 9;
 
 export default function ShopPage() {
   const [cat, setCat] = useState<UiCategory>("All Fabrics");
-  const [sort, setSort] = useState<SortKey>("recommended");
+  const [sort] = useState<SortKey>("recommended");
 
   // UI-like price range (just visual + filters)
   const [minPrice, setMinPrice] = useState(10);
